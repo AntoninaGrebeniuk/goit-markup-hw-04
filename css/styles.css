@@ -232,9 +232,17 @@ img {
 }
 /* -----Особливості----- */
 
-/* .feature-item + .feature-item {
-  margin-left: 30px;
-} */
+.thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+}
+
+.feature-icon {
+}
 
 .section.nopadding {
   padding-bottom: 0;
