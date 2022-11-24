@@ -74,15 +74,6 @@ img {
   overflow: hidden;
 }
 
-/* основной цвет текста #212121 */
-/* вторичный цвет текста #757575 */
-/* белый #ffffff */
-/* вторичный белый: #F5F5F5; */
-/* черный #000000 */
-/* акцент #2196F3 */
-/* ссылки футер 255, 255, 255, 0.6 */
-/* герой,футер background: #2F303A; */
-
 /* -----Шапка сайта----- */
 .header {
   margin-left: auto;
@@ -261,8 +252,10 @@ img {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+
   width: 270px;
   height: 120px;
+  background-color: var(--light-background-color);
 }
 
 .section.nopadding {
